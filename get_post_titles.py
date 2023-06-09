@@ -27,6 +27,7 @@ else:
 
 print("Posts will be saved as: " + filename)
 
+# TO DO: Update for greater than 100 items
 def get_posts(id, fn):
     url = "https://api.webflow.com/collections/%s/items?limit=100" %id
 

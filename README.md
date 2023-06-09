@@ -17,3 +17,5 @@ Patches each post item listed in a CSV. Currently set up for CSVs with a header 
 Note that the file path to the csv is required.
 ```python3 get_post_titles.py COLLECTION_ID FILEPATH.csv```
 
+## TO DO
+- Update to handle more than 100 items (chunking)
