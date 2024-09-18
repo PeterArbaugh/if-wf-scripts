@@ -8,7 +8,12 @@ Accessing the API requires an API key for a specific site. These can be created 
 ### Get Post Titles
 Returns a list of post titles in csv format. Includes title, slug, and item id.
 
-```python3 get_post_titles.py COLLECTION_ID [FILENAME]```
+```python3 get_post_titles.py COLLECTION_ID False [FILENAME]```
+
+### Get Post Content
+Returns a list of post titles in csv format, including the text content of each post.
+
+```python3 get_post_titles.py COLLECTION_ID True [FILENAME]```
 
 ### Patch Posts
 Patches each post item listed in a CSV. Currently set up for CSVs with a header row of:
